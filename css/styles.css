@@ -1,0 +1,256 @@
+/* 
+---------Global Styles--------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+p {
+  line-height: 1.85em;
+}
+small {
+  font-family: monospace;
+  color: gray;
+  font-size: 1.4em;
+  display: block;
+}
+.right-align {
+  text-align: right;
+}
+.center-align {
+  text-align: center;
+}
+h1 {
+  font-family: serif;
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+  /* change font */
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 
+---------Header 1--------- */
+#index {
+  color: white;
+}
+.header-content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-container {
+  padding: 0 2rem;
+  padding-top: 2rem;
+  display: flex;
+}
+.header-container h2 {
+  flex: 0 1 25%;
+  padding-right: 10px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-family: serif;
+}
+.header-container h2:last-child {
+  padding-right: 0;
+}
+/* 
+---------Header 2--------- */
+#header {
+  position: absolute;
+  top: 47.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#big-container {
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+.header-content-2 {
+  text-align: center;
+}
+.header-container-2 p {
+  line-height: 1em;
+  font-family: serif;
+}
+.header-container-2 h1,
+.header-container-2 p {
+  font-size: 3em;
+}
+/***** FIXED BG SCROLL *****/
+.subsection-wrapper {
+  position: relative;
+  height: 200vh;
+  width: 100%;
+}
+.subsection-wrapper img.fixed-bg {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  opacity: 0.85;
+  filter: brightness(60%);
+}
+.scroll-bg {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 12vw;
+  z-index: 2;
+}
+@media all and (max-width: 1100px) {
+  .index-gaming .subsection-wrapper img {
+    object-position: 0 0;
+  }
+}
+@media all and (max-height: 900px) {
+  .index-anime .subsection-wrapper {
+    height: 230vh;
+  }
+}
+/* 
+---------Sub-sections--------- */
+h3.subsection-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.subsection-description {
+  max-width: 960px;
+  padding-top: 1rem;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+/***** ANIME SECTION ONLY *****/
+
+/* List */
+
+.anime-list-ranking {
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 283px;
+}
+ol.list-block {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+ol.list-block li {
+  display: block;
+  text-align: center;
+  padding: 2.5rem 0.5rem;
+  font-family: fantasy;
+  font-size: 1.7em;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+ol.list-block li span {
+  display: inline-block;
+  padding-right: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.05em;
+}
+ol.list-block li.ranking-1 {
+  background-image: url(../images/ylia-01.jpg);
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-style: solid solid none;
+  border-top-color: #e5a719;
+  border-right-color: #e5a719;
+  border-left-color: #e5a719;
+}
+ol.list-block li.ranking-2 {
+  background-image: url(../images/aot-02.jpg);
+  background-position: top;
+  background-size: cover;
+  border-style: none solid;
+  border-right-color: #b4b4b4;
+  border-left-color: #b4b4b4;
+}
+ol.list-block li.ranking-3 {
+  background-image: url(../images/opm-07.png);
+  background-position: top;
+  background-size: auto 100%;
+  border-style: none solid;
+  border-right-color: #8e5113;
+  border-left-color: #8e5113;
+}
+ol.list-block li.ranking-4 {
+  color: black;
+  background-image: url(../images/dororo-02.jpg);
+  background-position: center;
+  background-size: cover;
+  border-style: none solid;
+  border-right-color: #8e5113;
+  border-left-color: #8e5113;
+}
+ol.list-block li.ranking-5 {
+  background-image: url(../images/gurren-01.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-style: none solid solid;
+  border-right-color: #8e5113;
+  border-left-color: #8e5113;
+  border-bottom-color: #8e5113;
+}
+.honorary-mentions {
+  float: right;
+  max-width: 400px;
+  text-align: right;
+  padding-top: 2px;
+}
+.honorary-mentions p {
+  line-height: 1.1rem;
+}
+.honorary-mentions p span {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/*** Footer ***/
+footer {
+  width: 100%;
+  color: black;
+  background-color: antiquewhite;
+}
+.footer-content {
+  padding: 8vh 12vw;
+}
