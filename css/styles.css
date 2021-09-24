@@ -46,6 +46,11 @@ h3 {
   letter-spacing: 0.2px;
   /* change font */
 }
+/*Footer*/
+h5 {
+  font-size: 1.6em;
+  letter-spacing: 0.3px;
+}
 a:link {
   color: inherit;
   text-decoration: none;
@@ -249,8 +254,18 @@ ol.list-block li.ranking-5 {
 footer {
   width: 100%;
   color: black;
-  background-color: antiquewhite;
+  background-color: rgb(253, 251, 247);
 }
 .footer-content {
   padding: 8vh 12vw;
+}
+.footer-content h5 {
+  text-align: center;
+}
+.contact-info {
+  padding-top: 50px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
