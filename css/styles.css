@@ -49,6 +49,7 @@ h3 {
 /*Footer*/
 h5 {
   font-size: 1.6em;
+  font-weight: 400;
   letter-spacing: 0.3px;
 }
 a:link {
@@ -254,18 +255,22 @@ ol.list-block li.ranking-5 {
 footer {
   width: 100%;
   color: black;
-  background-color: rgb(253, 251, 247);
+  background-color: rgb(208, 227, 247);
 }
 .footer-content {
-  padding: 8vh 12vw;
+  padding: 100px 12vw;
 }
 .footer-content h5 {
   text-align: center;
 }
 .contact-info {
   padding-top: 50px;
-  max-width: 500px;
+  max-width: 250px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+.mail {
+  position: relative;
+  top: -20%;
 }

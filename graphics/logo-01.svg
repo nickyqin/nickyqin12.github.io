@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo-01.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="131.54528"
+     inkscape:cy="565.98198"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="160.5527"
+       y="589.59267"
+       width="457.3728"
+       height="155.15597"
+       id="rect49960" />
+    <rect
+       x="125.47396"
+       y="302.21684"
+       width="582.84676"
+       height="249.59873"
+       id="rect44982" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text44980"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect44982)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text49958"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect49960)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:71.6716px;line-height:1.25;font-family:sans-serif;fill:#11759d;fill-opacity:1;stroke:none;stroke-width:0.215015"
+       x="52.216991"
+       y="173.94907"
+       id="text52430"
+       transform="scale(1.2305345,0.812655)"><tspan
+         sodipodi:role="line"
+         id="tspan52428"
+         style="font-size:71.6716px;stroke-width:0.215015;fill:#11759d;fill-opacity:1"
+         x="52.216991"
+         y="173.94907">W</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:48.2534px;line-height:1.25;font-family:sans-serif;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.241267"
+       x="83.005875"
+       y="183.99052"
+       id="text53380"
+       transform="scale(1.096641,0.91187545)"><tspan
+         sodipodi:role="line"
+         id="tspan53378"
+         style="font-size:48.2534px;stroke-width:0.241267;fill:#008080"
+         x="83.005875"
+         y="183.99052">n</tspan></text>
+    <ellipse
+       id="path67718"
+       cx="75.320915"
+       cy="102.80769"
+       rx="8.9242783"
+       ry="8.5673075"
+       style="stroke-width:0.264583;fill:#11759d;fill-opacity:1" />
+    <ellipse
+       id="path67718-4"
+       cx="108.51923"
+       cy="101.37981"
+       rx="8.9242783"
+       ry="8.5673075"
+       style="stroke-width:0.264583;fill:#11759d;fill-opacity:1" />
+    <ellipse
+       id="path67718-49"
+       cx="141.71756"
+       cy="101.73679"
+       rx="8.9242783"
+       ry="8.5673075"
+       style="stroke-width:0.264583;fill:#11759d;fill-opacity:1" />
+  </g>
+</svg>
