@@ -1,0 +1,310 @@
+main {
+  background-color: rgb(252, 248, 244);
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.image-first {
+  background-color: rgb(208, 227, 247);
+}
+div.image-first img {
+  width: 100%;
+  max-width: 750px;
+  display: block;
+  margin: 0 auto;
+}
+.image-first-text p {
+  font-family: serif;
+  text-align: center;
+  font-size: 23px;
+  padding: 80px 0;
+}
+
+/* ------IMAGES------ */
+.gaming-journey {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+.image-box img {
+  max-width: 100%;
+  box-sizing: content-box;
+  border-radius: 1px;
+  display: inline-block;
+  padding-top: 50px;
+}
+.overflow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.journey-01 {
+  max-height: 600px;
+  float: right;
+}
+img.journey-02 {
+  max-height: 400px;
+  position: relative;
+  margin-top: 600px;
+  top: -100;
+  left: 3vw;
+}
+img.journey-03 {
+  max-height: 200px;
+  position: relative;
+  top: -70;
+  padding-left: 10vw;
+}
+img.journey-04 {
+  max-height: 200px;
+  position: relative;
+  top: -10;
+  padding-left: 15vw;
+}
+img.journey-05 {
+  max-height: 400px;
+  float: right;
+  position: relative;
+  top: -300;
+  right: 1vw;
+}
+img.journey-06 {
+  max-height: 600px;
+  margin-top: 230px;
+}
+img.journey-07 {
+  box-sizing: border-box;
+  max-height: 400px;
+  position: relative;
+  margin-top: 30px;
+  padding-left: 3vw;
+  padding-top: 0;
+}
+img.journey-08 {
+  max-height: 300px;
+  position: relative;
+  padding-top: 0;
+  top: 30;
+}
+@media all and (max-width: 975px) {
+  img.journey-08 {
+    padding-left: 4vw;
+  }
+}
+img.journey-10 {
+  box-sizing: border-box;
+  max-height: 300px;
+  float: right;
+  margin-top: 150px;
+  padding-top: 0;
+  padding-left: 20px;
+}
+.journey-11 {
+  max-height: 500px;
+  position: relative;
+  float: right;
+  clear: right;
+  /* margin-top: 500; */
+  padding-top: 10px;
+  padding-left: 60px;
+}
+img.journey-12 {
+  max-height: 210px;
+  position: relative;
+  padding-top: 5px;
+  margin-top: 900px;
+}
+img.journey-13 {
+  box-sizing: border-box;
+  max-height: 250px;
+  position: relative;
+  padding-top: 5px;
+  padding-left: 2vw;
+  padding-right: 40px;
+}
+img.journey-14 {
+  box-sizing: border-box;
+  max-height: 300px;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 7vw;
+  padding-right: 30px;
+}
+img.journey-15 {
+  box-sizing: border-box;
+  max-height: 330px;
+  position: relative;
+  padding-top: 12px;
+  padding-left: 15vw;
+  padding-right: 15px;
+}
+img.journey-16 {
+  box-sizing: border-box;
+  max-height: 400px;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 26vw;
+}
+.journey-17 {
+  max-height: 500px;
+  float: right;
+  margin-top: 10px;
+}
+img.journey-18 {
+  max-height: 320px;
+  float: right;
+  position: relative;
+  top: 250;
+  padding-right: 20px;
+}
+@media all and (max-width: 400px) {
+  img.journey-18 {
+    box-sizing: border-box;
+  }
+}
+img.journey-19 {
+  max-height: 350px;
+  float: right;
+  clear: right;
+  margin-top: 100px;
+}
+.heading-margin {
+  margin-top: 960px;
+  text-align: center;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+.journey-20 {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+img.journey-21 {
+  max-height: 400px;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+img.journey-22 {
+  max-height: 450px;
+  margin-top: 5px;
+}
+img.journey-23 {
+  box-sizing: border-box;
+  max-height: 600px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 25vw;
+  margin-top: 80px;
+}
+.journey-24 {
+  box-sizing: content-box;
+  max-width: 375px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 22vw;
+  margin-top: 5px;
+}
+.journey-24 img {
+  max-height: 500px;
+}
+.journey-25 {
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+img.journey-26 {
+  max-height: 400px;
+  margin-top: 50px;
+}
+
+@media all and (max-width: 1300px) {
+  img.journey-05 {
+    max-height: 300px;
+  }
+  img.journey-18 {
+    float: none;
+  }
+  .heading-margin {
+    margin-top: 500px;
+  }
+}
+
+@media all and (max-width: 1065px) {
+  img.journey-05 {
+    max-height: 250px;
+  }
+  .journey-11 {
+    max-height: 400px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  img.journey-05 {
+    top: 0;
+  }
+  img.journey-18 {
+    max-height: 270px;
+  }
+  img.journey-19 {
+    max-height: 300px;
+  }
+}
+
+@media all and (max-width: 930px) {
+  img.journey-12 {
+    margin-top: 300px;
+  }
+}
+
+@media all and (max-width: 765px) {
+  img.journey-18 {
+    top: 50;
+  }
+}
+
+@media all and (max-width: 690px) {
+  img.journey-02 {
+    margin-top: 200px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .journey-11 {
+    padding-left: 5px;
+  }
+  img.journey-14 {
+    padding-left: 20px;
+  }
+  img.journey-15 {
+    padding-left: 30px;
+  }
+  img.journey-16 {
+    padding-left: 40px;
+  }
+  img.journey-23 {
+    float: none;
+    padding-left: 20px;
+  }
+}
+
+@media all and (max-width: 430px) {
+  img.journey-03,
+  img.journey-04,
+  img.journey-08 {
+    box-sizing: border-box;
+    padding-top: 0;
+  }
+  img.journey-07 {
+    padding-left: 30px;
+  }
+  img.journey-08 {
+    padding-left: 40px;
+  }
+}

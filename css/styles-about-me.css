@@ -1,0 +1,35 @@
+/*--max width and centering all items--*/
+
+.max {
+  max-width: 93%;
+  width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  padding-top: 14vh;
+  padding-bottom: 10vh;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+/*----CONTENT----*/
+.abme-sec {
+  margin-bottom: 100px;
+}
+.icon {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.flex {
+  display: flex;
+}
+.flex div {
+  transform: translateY(30%);
+}
+.flex-one {
+  padding-right: 40px;
+}
+img.headshot {
+  max-height: 500px;
+}
