@@ -5,6 +5,11 @@
   width: 1000px;
   margin: 0 auto;
 }
+.max2 {
+  max-width: 93%;
+  width: 600px;
+  margin: 0 auto;
+}
 h1 {
   padding-top: 14vh;
   padding-bottom: 10vh;
@@ -32,4 +37,28 @@ h1 {
 }
 img.headshot {
   max-height: 500px;
+}
+/*-RESUME-*/
+.resume {
+  text-align: right;
+}
+.resume a {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/*-Projects&Skills-*/
+.p-and-s {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.skills-list {
+  flex: 0 1 50%;
+}
+.proj-list {
+  /* flex: 0 1 50%; */
+}
+li {
+  padding-bottom: 5px;
+  line-height: 1.65em;
 }
