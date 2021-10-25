@@ -99,7 +99,7 @@ a.inline:hover {
   display: flex;
 }
 .header-container h2 {
-  flex: 0 1 25%;
+  flex: 0 1 33%;
   padding-right: 10px;
   letter-spacing: 0.4px;
   font-weight: 400;
